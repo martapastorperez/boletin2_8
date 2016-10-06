@@ -12,7 +12,7 @@ public class Boletin2_8 {
        graos= Float.parseFloat(JOptionPane.showInputDialog("graos"));
       
        kelvin=graos-273;
-       fahrenheit=(graos*1.8f)/2;//f=para pasar el double a float
+       fahrenheit=(graos*1.8f)/32;//f=para pasar el double a float
        JOptionPane.showMessageDialog(null,"kelvin="+kelvin+"Fahrenheit="+fahrenheit);
           
         
